@@ -1,4 +1,4 @@
-from main import *
+from main_exponential_sequence import *
 
 run_cases = [
     (10, 2, 4, [10, 20, 40, 80, 160]),
