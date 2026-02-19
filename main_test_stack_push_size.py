@@ -1,4 +1,4 @@
-from main import *
+from main_stack_push_size import *
 
 run_cases = [
     (
