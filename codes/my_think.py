@@ -1,5 +1,5 @@
 from node import Node
-from main import LinkedList
+from codes.main_linked_list import LinkedList
 
 array = [1, 2, 3]
 linked_list = LinkedList()
