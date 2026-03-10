@@ -1,6 +1,6 @@
 import random
 import time
-from main import *
+from codes.main_linked_list_tail import *
 
 run_cases = [
     (10, "Patrick Bateman", "Paul Allen"),
