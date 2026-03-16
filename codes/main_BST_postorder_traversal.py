@@ -1,6 +1,16 @@
 class BSTNode:
-    def preorder(self, visited):
-        pass
+    def postorder(self, visited):
+        if self.val is None:
+            return visited
+        
+        if self.left is not None:
+            self.left.postorder(visited)
+        if self.right is not None:
+            self.right.postorder(visited)
+        visited.append(self.val)
+
+        return visited
+
 
     # don't touch below this line
 
