@@ -33,6 +33,16 @@ class RBTree:
             else:
                 return
         
+        new_node.parent = parent
+        
+        if new_node.parent is None:
+            self.root = new_node
+        
+        elif new_node.val < parent.val:
+            parent.left = new_node
+        
+        elif new_node.val > parent.val:
+            parent.right = new_node
         
 
 
