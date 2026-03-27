@@ -1,5 +1,5 @@
 import random
-from main import *
+from codes.main_RBTree_Insert import *
 from user import *
 from ref import *  # ref module is hidden because it has the solution!
 
